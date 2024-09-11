@@ -9,7 +9,7 @@ const Inicio = () => {
 
   useEffect(() => {
     fetch(
-      "https://my-json-server.typicode.com/joaovictords11/CineTag-ReactJs/videos"
+      "https://my-json-server.typicode.com/joaovictords11/CineTag-React/videos"
     )
       .then((response) => response.json())
       .then((data) => {
